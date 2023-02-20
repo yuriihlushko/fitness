@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&family=Roboto:ital,wght@0,300;0,700;1,300&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+label {
+	cursor: pointer;
+}
+body{
+	line-height: 1;
+	background: black;
+	overflow: hidden scroll;
+}
+
+section{
+    width: 100vw;
+    outline: 1px solid red;
+    margin: 0 auto;
+}
+header{
+background: url(../images/header/header.jpg);
+    background-position: -8px 0px;
+    margin: 0 auto;
+    max-width: 1244px;
+}
+.logo{
+	margin: 36px 0 0 58px;
+    display: inline-block;
+}
+.logo img{
+	vertical-align: middle;
+	margin-top: 2px;
+}
+h1{
+	display: inline-block;
+	margin-left: 17px;
+	font-family: Raleway;
+	color: white;
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: uppercase;
+	vertical-align: middle;
+	letter-spacing: 1px;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+.call_to_action{
+	margin-top: 168px;
+
+}
+.call_to_action:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.fitness{
+	float: left;
+	margin-left: 53px;
+	position: relative;
+	display: inline-block;
+	z-index: 10;
+}
+.sign_up{
+	float: right;
+	display: inline-block;
+    margin-right: 99px;
+    margin-top: 8px;
+}
+.big_letter{
+
+	color: #ffffff;
+	font-family: "Raleway";
+	font-size: 72px;
+	font-weight: 900;
+	margin-left: 0;
+	margin-top: 3px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 1.08px;
+}
+summary:before{
+	content: "";
+	background: url('../images/header/under_fitnes.png');
+	position: absolute;
+	top: -82px;
+	right: -29px;
+	width: 383px;
+	height: 325px;
+	z-index: 5;
+}
+summary>p{
+	position: relative;	
+	z-index: 10;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: 300;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	margin-left: 4px;
+    margin-top: 2px;
+}
+.sign_up p{
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 1.18;
+}
+.sign_up button{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    background: #af1c1a;
+    padding: 10px 25px 11px 26px;
+    border: none;
+    margin: 20px 0px 0px 1px;
+    cursor: pointer;
+}
+nav{
+	margin-top: 237px;
+}
+nav ul{
+	text-align: right;
+}
+nav li{
+	display: inline-block;
+	min-width: 83px;
+	margin: 0 15px;
+}
+nav a{
+color: #ffffff;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+text-align: center;
+text-transform: uppercase;
+}
